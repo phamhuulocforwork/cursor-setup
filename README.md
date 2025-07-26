@@ -7,7 +7,7 @@ A complete configuration setup for Cursor IDE with Model Context Protocol (MCP) 
 This project provides:
 
 - **MCP Servers**: Configuration for Serena AI assistant and Postman API
-- **Custom Prompts**: Detailed guidelines for AI development assistant
+- **Custom Agent**: Detailed guidelines for AI development assistant
 - **User Rules**: Rules and best practices for full-stack development
 
 ## 🚀 Installation
@@ -31,7 +31,7 @@ cursor-setup/
 ├── mcp-server/
 │   ├── serena.json      # Serena AI assistant configuration
 │   └── postman.json     # Postman API configuration
-├── prompts/
+├── custom-agent/
 │   └── v0.md           # Detailed AI development guidelines
 ├── user-rules/
 │   ├── best-practices.md        # Complete development rules
