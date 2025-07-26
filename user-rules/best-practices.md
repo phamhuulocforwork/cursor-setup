@@ -154,4 +154,3 @@ Adjust analysis depth based on:
 - Continuously optimize interaction experience
 - Keep open learning attitude and updated knowledge
 - Disable the output of emoji unless specifically requested
-- By default, provide explanations in Vietnamese, but use English for coding solutions and code-related responses.

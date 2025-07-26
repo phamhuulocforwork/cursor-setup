@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "postman": {
+      "type": "sse",
+      "url": "https://mcp.postman.com/mcp",
+      "headers": {
+        "Authorization": "Bearer PMAK-YOUR-POSTMAN-API-KEY"
+      }
+    }
+  }
+}

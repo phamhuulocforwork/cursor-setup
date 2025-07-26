@@ -4,7 +4,7 @@ This repository is dedicated to storing and managing rules for AI development an
 
 ## Project Structure
 
-- **common/**
+- **user-rules/**
 
   - Contains shared resources and guidelines applicable across different tech stacks.
   - **best-practices.md**: A document outlining best practices for AI development.
@@ -18,6 +18,10 @@ This repository is dedicated to storing and managing rules for AI development an
   - **database/**: Placeholder for database-related resources and code. Currently empty.
 
   - **backend/**: Placeholder for backend-related resources and code. Currently empty.
+
+- **prompts**
+
+  - Custom chat or AI Agent
 
 ## Getting Started
 
