@@ -1,36 +1,71 @@
-# Rules for AI
+# Cursor Setup
 
-This repository is dedicated to storing and managing rules for AI development and deployment. Below is an overview of the project structure and the purpose of each directory.
+A complete configuration setup for Cursor IDE with Model Context Protocol (MCP) servers and custom rules to optimize the development experience.
 
-## Project Structure
+## 📋 Description
 
-- **user-rules/**
+This project provides:
 
-  - Contains shared resources and guidelines applicable across different tech stacks.
-  - **best-practices.md**: A document outlining best practices for AI development.
+- **MCP Servers**: Configuration for Serena AI assistant and Postman API
+- **Custom Prompts**: Detailed guidelines for AI development assistant
+- **User Rules**: Rules and best practices for full-stack development
 
-- **tech-stack/**
+## 🚀 Installation
 
-  - This directory is organized into subdirectories for different components of the tech stack.
+### System Requirements
 
-  - **frontend/**: Placeholder for frontend-related resources and code. Currently empty.
+- Cursor IDE
+- Node.js (recommended version 18+)
+- `uvx` package manager (for Serena MCP server)
 
-  - **database/**: Placeholder for database-related resources and code. Currently empty.
+### Install uvx (if not already installed)
 
-  - **backend/**: Placeholder for backend-related resources and code. Currently empty.
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
 
-- **prompts**
+## 📁 Project Structure
 
-  - Custom chat or AI Agent
+```
+cursor-setup/
+├── mcp-server/
+│   ├── serena.json      # Serena AI assistant configuration
+│   └── postman.json     # Postman API configuration
+├── prompts/
+│   └── v0.md           # Detailed AI development guidelines
+├── user-rules/
+│   ├── best-practices.md        # Complete development rules
+│   └── best-practices-short.md  # Summary development rules
+└── README.md
+```
 
-## Getting Started
+## 📚 References
 
-To get started with this project, clone the repository and explore the directories to understand the guidelines and best practices for AI development.
+- [Cursor IDE Documentation](https://cursor.sh/docs)
+- [Model Context Protocol](https://modelcontextprotocol.io/)
+- [Serena AI Assistant](https://github.com/oraios/serena)
+- [Postman API Documentation](https://learning.postman.com/docs/developer/intro-api/)
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Please read the `common/best-practices.md` to ensure your contributions align with the project's standards.
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## License
+## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is distributed under the MIT License. See the `LICENSE` file for more details.
+
+## 🆘 Support
+
+If you encounter issues or have questions:
+
+1. Check existing [Issues](../../issues)
+2. Create a new issue with detailed description
+3. Contact the maintainer via GitHub
+
+---
+
+**Note**: Make sure to update API keys and configuration according to your development environment.
